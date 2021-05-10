@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* --------------------------------------------------------------------------------- */
+/* intosection here */
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    height: 80vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 2.3rem;
+
+}
+#introSection h1{
+    text-shadow: 5px 3px 3px black;
+    font-weight: bolder;
+}
+#introSection h3{
+    text-shadow: 5px 3px 3px black;
+    padding-bottom: 15px;
+}
+/* -------------------------------------------------------------------------------------------------- */
+/* our missin section here */
+#ourMission{
+    height: 50vh;
+    width: 100%;
+}
+#ourMission h2{
+    padding-top: 15px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+#ourMission .mainCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#ourMission .cards{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 25%;
+    height: 240px;
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+.cards h3{
+    padding-top: 1px;
+    font-size: 2rem;
+}
+
+#ourMission .card-box{
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ourMission .card-img img{
+    height: 80px;
+    width: 80px;
+}
+#ourMission .card-content{
+    margin-top: 5px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------- */
+/* sponser section here */
+#sponserSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color:rgba(39, 39, 37, 0.603);
+
+}
+#sponserSection h2{
+    padding-top: 15px;
+    font-size: 3.5rem;
+}
+#sponserSection .sponsers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    width: 50%;
+}
+#sponserSection .sponsers img{
+    height: 80%;
+    width: 20%;
+}
+
+
+
+
+

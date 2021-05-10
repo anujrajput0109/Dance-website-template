@@ -1,0 +1,43 @@
+extends base.pug
+block script 
+    script(src='/static/index.js')
+block style 
+    style
+        include ../static/indexStyle.css
+        include ../static/baseStyle.css
+
+block content  
+        section#introSection
+           h1 Welcome to Anuj's dance academy
+           h3 Eat Dance Sleep Repeat
+        section#ourMission
+            h2 Our Mission
+            div.mainCard
+                div.cards
+                    h3 topic 1
+                    div.card-box
+                        div.card-img
+                            img(src="../static/dance1.png", alt="Dance-logo")
+                        div.card-content
+                            p Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. 
+                div.cards
+                    h3 topic 1
+                    div.card-box
+                        div.card-img
+                            img(src="../static/dance2.png", alt="Dance-logo")
+                        div.card-content
+                            p Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. 
+                div.cards
+                    h3 topic 1
+                    div.card-box
+                        div.card-img
+                            img(src="../static/dance3.png", alt="Dance-logo")
+                        div.card-content
+                            p Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. 
+        section#sponserSection
+            h2 Our Sponsers
+            div.sponsers
+                img(src="../static/apple-logo.png", alt="Conapnies logo")
+                img(src="../static/apple-logo.png", alt="Conapnies logo")
+                img(src="../static/apple-logo.png", alt="Conapnies logo")
+                img(src="../static/apple-logo.png", alt="Conapnies logo")

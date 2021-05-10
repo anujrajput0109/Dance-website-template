@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ------------------------------------------------------------------------------- */
+.container{
+   height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container::before{
+    content: "";
+    background: center / cover no-repeat url("/static/bg1.jpg");
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+h1{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 3.2rem;
+    color: white;
+}
+
+.myform{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 27%;
+    height: 10%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 4px 0px;
+    padding: 10px;
+    outline: none;
+}
+.btn{
+    border: 2px solid black;
+    padding: 3px 6px;
+    margin: 6px 0px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(29, 90, 40);
+    color: white;
+    box-shadow: 0px 0px 5px 2px white;
+
+}
+.btn:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    padding: 3px 7px;
+    margin: 6px 1px;
+    font-size: 1.3rem;
+    background-color: #fff;
+    color: black;
+}
